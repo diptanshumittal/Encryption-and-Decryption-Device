@@ -1,0 +1,1 @@
+cmd_/home/diptanshu/Desktop/Encoder/encode.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/diptanshu/Desktop/Encoder/encode.ko /home/diptanshu/Desktop/Encoder/encode.o /home/diptanshu/Desktop/Encoder/encode.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/diptanshu/Desktop/Decoder/decode.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/diptanshu/Desktop/Decoder/decode.ko /home/diptanshu/Desktop/Decoder/decode.o /home/diptanshu/Desktop/Decoder/decode.mod.o ;  true
